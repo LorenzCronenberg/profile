@@ -112,19 +112,19 @@ ul a {
 
 @media (max-width: 960px) {
   .header {
-    width: 500px;
+    width: 100%;
   }
 }
 
 @media (max-width: 720px) {
   .main {
-    width: 500px;
+    width: 100%;
   }
 }
 
 @media (max-width: 540px) {
   .footer {
-    width: 500px;
+    width: 100%;
   }
 }
 
