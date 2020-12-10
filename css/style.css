@@ -2,24 +2,33 @@
 @import url("components/navbar.css");
 @import url("components/avatar.css");
 @import url("components/banner.css");
+@import url("components/button.css");
+
+
+body {
+  background-color: black;
+}
 
 
 h1 {
   font-size: 80px;
   font-family: 'Roboto' sans-serif;
   font-weight: 700;
+  color: white;
 }
 
 h2 {
   font-size: 30px;
   font-family: 'Roboto' sans-serif;
   font-weight: 700;
+   color: white;
 }
 
 h3 {
   font-size: 18px;
   font-family: 'Roboto' sans-serif;
   font-weight: 400;
+   color: white;
 
 }
 
@@ -27,6 +36,7 @@ p {
   font-size: 14px;
   font-family: 'Roboto' sans-serif;
   font-weight: 100;
+   color: white;
 }
 
 
