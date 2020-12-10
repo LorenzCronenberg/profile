@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  border-bottom: solid 1px white;
 }
 
 .navbar-lewagon {
@@ -29,9 +30,19 @@
   color: white;
 }
 
+.nav-header h3:hover {
+  color: blue;
+  transition-duration: 2s;
+}
+
 #item {
   font-family: 'Roboto' sans-serif;
   font-weight: 100;
   color: white;
   margin-left: 20px;
+}
+
+#item:hover {
+  color: blue;
+  transition-duration: 2s;
 }
