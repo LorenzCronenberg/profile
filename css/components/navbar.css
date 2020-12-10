@@ -30,6 +30,10 @@
   color: white;
 }
 
+.nav-header h3 {
+  padding-left: 15px;
+}
+
 .nav-header h3:hover {
   color: blue;
   transition-duration: 2s;
