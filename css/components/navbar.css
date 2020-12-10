@@ -8,7 +8,7 @@
 .navbar-lewagon {
   padding: 20px;
   justify-content: space-between;
-  background: black;
+  background: rgb(30,30,30);
 }
 
 .navbar-lewagon .navbar-collapse {
