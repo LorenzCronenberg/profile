@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+
+
+h1 {
+  font-size: 80px;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 400;
+
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@import url("components/button.css");
+@import url("components/header.css");
+@import url("components/list.css");
+@import url("components/main.css");
+@import url("components/footer.css");
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  background-color: rgba(240, 240, 240, 0.2);
+  text-align: center;
+}
+
+body a {
+  background-color: #1977f2;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins'
+  font-weight: bold;
+  text-align: center;
+  color: #1977f2;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Poppins'
+  font-weight: bold;
+  color: #3ccaff;
+  font-size: 30px;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+p {
+  color: rgba(20, 20, 20, 0.8);
+}
+
+ul a {
+  background-color: white;
+  list-style: none;
+}
+
+@media (max-width: 960px) {
+  .header {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  .main {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer {
+    width: 500px;
+  }
+}
+*/
