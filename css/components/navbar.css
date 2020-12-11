@@ -1,3 +1,4 @@
+
 .nav {
   display: grid;
   margin-left: 0px;
@@ -8,11 +9,11 @@
 
 
 #nav-top {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
-  width: 100%;
+  /*width: 100%;*/
   border-bottom: solid 1px white;
-  /*margin-left: 15px;*/
+  margin-left: 0px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -42,10 +43,6 @@
   color: white;
 }
 
-.nav-header h3 {
-  padding-left: 15px;
-  margin-bottom: 0px;
-}
 
 .nav-header h3:hover {
   color: blue;
@@ -63,3 +60,4 @@
   color: blue;
   transition-duration: 2s;
 }
+

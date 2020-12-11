@@ -1,16 +1,17 @@
 .banner {
-  display: grid;
-  background-color: rgb(30,30,30);
+  margin-top: 80px;
   background-size: cover;
   background-position: center;
-  padding: 120px 0px 120px 20px;
-  width: 100%;
+  padding: 200px 0;
+  margin-left: -10px;
 }
 
 .banner h1 {
-  font-size: 100px;
-  margin-top: 150px;
-  margin-left: 30px;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 75px;
+  font-weight: bold;
 }
 
 .banner h1:hover {
@@ -19,9 +20,12 @@
 }
 
 .banner h2 {
-  font-size: 46px;
-  margin-left: 40px;
-  letter-spacing: 27px;
+  letter-spacing: 22px;
+  padding-left: 7px;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
   font-weight: 100;
 }
 
@@ -30,31 +34,10 @@
   transition-duration: 2s;
 }
 
-.banner h3 {
-  font-size: 30px;
-  margin-left: 40px;
-  margin-top: 40px;
-  font-weight: 400;
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
-
-.title {
-  position: relative;
-  right: 8rem;
-}
-
-.sub-title {
-  position: relative;
-  right: 8rem;
-}
-
-.bio {
-  position: relative;
-  right: 8rem;
-  margin-left: 40px;
-}
-
-
-
-
-
 
