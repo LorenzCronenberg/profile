@@ -1,8 +1,10 @@
 .banner {
+  display: grid;
   background-color: rgb(30,30,30);
   background-size: cover;
   background-position: center;
-  padding: 120px;
+  padding: 120px 0px 120px 20px;
+  width: 100%;
 }
 
 .banner h1 {
