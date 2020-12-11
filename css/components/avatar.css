@@ -6,14 +6,8 @@
 }
 
 .avatar-large {
-  /*display: grid;*/
   width: 56px;
-  /*width: 600px;
-  height: 600px;*/
-  /*margin-left: 10px;*/
   border-radius: 50%;
-  /*object-fit: cover;
-  opacity: 0.8;*/
 }
 
 .avatar-large:hover {
