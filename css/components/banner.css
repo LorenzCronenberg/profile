@@ -1,9 +1,58 @@
 .banner {
+  margin-top: 80px;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  margin-left: -10px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.banner h1:hover {
+  color: blue;
+  transition-duration: 2s;
+}
+
+.banner h2 {
+  letter-spacing: 22px;
+  padding-left: 7px;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.banner h2:hover {
+  color: blue;
+  transition-duration: 2s;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+/*.banner {
   display: grid;
   background-color: rgb(30,30,30);
   background-size: cover;
   background-position: center;
-  padding: 120px 0px 120px 20px;
+  padding: 200px;
   width: 100%;
 }
 
@@ -38,23 +87,22 @@
 }
 
 .title {
-  position: relative;
-  right: 8rem;
+  display: grid;
+  /*position: relative;*/
+ /* right: 8rem;
 }
 
 .sub-title {
-  position: relative;
-  right: 8rem;
+  display: grid;
+  /*position: relative;*/
+ /* right: 8rem;
 }
-
-.bio {
+*/
+/*.bio {
+  display: grid;
   position: relative;
   right: 8rem;
   margin-left: 40px;
-}
-
-
-
-
+}*/
 
 

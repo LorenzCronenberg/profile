@@ -1,5 +1,5 @@
 .btn-work {
-  position: relative;
+  /*position: relative;*/
   right: 85px;
   margin-top: 30px;
   border-radius: 20px;
@@ -9,7 +9,9 @@
 
 .btn-work:hover {
   background-color: blue;
-  transition-duration: 1s;
+
+  opacity: 0.8;
+  color: white;
 }
 
 .btn-work a {
