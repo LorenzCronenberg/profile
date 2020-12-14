@@ -24,3 +24,24 @@
   color: white;
 }
 
+.action-buttons {
+  position: absolute;
+  left: 0px;
+  bottom: 50px;
+  margin-left: 50px;
+}
+
+.btn-project {
+  width: 12rem;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-right: 88px;
+}
+
+.btn-github {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 8rem;
+}

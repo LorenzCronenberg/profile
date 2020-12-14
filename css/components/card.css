@@ -56,6 +56,32 @@
   padding-right: 0px;
 }
 
+.project-card {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.project-card img {
+  padding: 50px 50px 50px 30px;
+}
+
+.project-card h2 {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.project-card p {
+  color: black;
+  padding-left: 50px;
+}
+
+.project-card-infos {
+  position: relative;
+}
 
 @media(max-width: 992px) {
   .wrapper {
