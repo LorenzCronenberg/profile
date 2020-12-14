@@ -43,9 +43,13 @@
   color: white;
 }
 
+.nav-header h3 {
+  margin-bottom: 0px;
+}
+
 
 .nav-header h3:hover {
-  color: blue;
+  color: #ffac31;
   transition-duration: 2s;
 }
 
@@ -57,7 +61,7 @@
 }
 
 #item:hover {
-  color: blue;
+  color: #ffac31;
   transition-duration: 2s;
 }
 
