@@ -12,11 +12,13 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 75px;
   font-weight: bold;
+  font-family: 'Roboto';
 }
 
 .banner h1:hover {
   color: blue;
   transition-duration: 2s;
+  font-family: 'Roboto';
 }
 
 .banner h2 {
@@ -27,6 +29,7 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
   font-weight: 100;
+  font-family: 'Roboto';
 }
 
 .banner h2:hover {
@@ -39,5 +42,6 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: 'Roboto';
 }
 
