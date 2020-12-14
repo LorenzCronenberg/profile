@@ -8,6 +8,7 @@
 
 body {
   background: transparent;
+  width: 100%;
 }
 
 
@@ -29,7 +30,7 @@ h3 {
   font-size: 18px;
   font-family: 'Roboto' sans-serif !important;
   font-weight: 400;
-   color: white;
+  color: white;
 
 }
 

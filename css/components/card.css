@@ -2,20 +2,22 @@
   font-family: 'Roboto';
   margin-top: 25px;
   margin-bottom: 25px;
+  margin-left: 20px;
 }
 
 .wrapper {
   grid-auto-rows: minmax(100px, auto);
   flex-grow: 1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 16px;
+
 }
 
 .card-portfolio {
-  margin-bottom: 20px;
+  margin: 20px;
   /*overflow: hidden;*/
-  height: 120px;
+  height: 133px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
@@ -29,13 +31,15 @@
 }
 
 .card-portfolio h2 {
+  font-family: 'Roboto'
   font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
 
 .card-portfolio p {
-  font-size: 12px;
+  font-family: 'Roboto';
+  font-size: 15px;
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
