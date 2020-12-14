@@ -9,9 +9,9 @@
 }
 
 .btn-work:hover {
-  background-color: blue;
+  background-color: #ffac31;
 
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   color: white;
 }
 
