@@ -2,15 +2,16 @@
   /*position: relative;*/
   right: 85px;
   margin-top: 30px;
+  margin-left: 10px;
   border-radius: 20px;
   padding: 20px;
   background-color: white;
 }
 
 .btn-work:hover {
-  background-color: blue;
+  background-color: #ffac31;
 
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   color: white;
 }
 
