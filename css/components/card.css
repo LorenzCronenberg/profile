@@ -15,7 +15,7 @@
 }
 
 .card-portfolio {
-  margin: 20px;
+  margin: 20px 0px 20px 0px;
   /*overflow: hidden;*/
   height: 133px;
   background: white;
@@ -56,31 +56,66 @@
   padding-right: 0px;
 }
 
-.project-card {
-  position: absolute;
+
+.card-trip {
+  margin-bottom: 50px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip > img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#project-picture {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  color: black;
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-trip .card-trip-infos {
+  min-height: 150px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid rgba(0,0,0,0.2);
-  margin-bottom: 30px;
-  margin-left: 15px;
-}
-
-.project-card img {
-  padding: 50px 50px 50px 30px;
-}
-
-.project-card h2 {
-  padding-top: 50px;
-  padding-left: 50px;
-}
-
-.project-card p {
-  color: black;
-  padding-left: 50px;
-}
-
-.project-card-infos {
+  /* align-items: flex-end; */
   position: relative;
+}
+
+.action-button {
+  display: flex;
+  /*justify-content: space-between;*/
+  margin-top: 25px;
+}
+
+.carousel-control-prev-icon {
+  margin-bottom: 200px;
+}
+
+.indicator {
+  background-color: black !important;
+  padding: 2px;
+}
+
+.carousel-control-next-icon {
+  margin-bottom: 200px;
 }
 
 @media(max-width: 992px) {
