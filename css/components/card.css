@@ -56,32 +56,43 @@
   padding-right: 0px;
 }
 
-.project-card {
-  position: absolute;
+
+.card-trip {
+  margin-bottom: 50px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip > img {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  color: black;
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-trip .card-trip-infos {
+  height: 20vh;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid rgba(0,0,0,0.2);
-  margin-bottom: 30px;
-  margin-left: 15px;
-}
-
-.project-card img {
-  padding: 50px 50px 50px 30px;
-}
-
-.project-card h2 {
-  padding-top: 50px;
-  padding-left: 50px;
-}
-
-.project-card p {
-  color: black;
-  padding-left: 50px;
-}
-
-.project-card-infos {
+  /* align-items: flex-end; */
   position: relative;
 }
+
 
 @media(max-width: 992px) {
   .wrapper {
