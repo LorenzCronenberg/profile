@@ -1,18 +1,19 @@
 .btn-work {
   /*position: relative;*/
+  color: white;
   right: 85px;
   margin-top: 30px;
   margin-left: 10px;
   border-radius: 20px;
   padding: 20px;
-  background-color: white;
+  background-color: #ffac31;
 }
 
 .btn-work:hover {
-  background-color: #ffac31;
+  background-color: white;
 
-  /*opacity: 0.8;*/
-  color: white;
+ /* opacity: 0.8;*/
+  color: #ffac31;
 }
 
 .btn-work a {
@@ -31,7 +32,19 @@
   margin-left: 50px;
 }
 
-.btn-project {
+.btn-work-project {
+  background-color: #ffac31;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+.btn-work-project:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+/*.btn-project {
   width: 12rem;
   background-color: black;
   color: white;
@@ -45,3 +58,4 @@
   border-radius: 20px;
   width: 8rem;
 }
+*/
