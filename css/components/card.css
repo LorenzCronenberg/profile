@@ -70,6 +70,12 @@
   object-fit: cover;
 }
 
+#project-picture {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .card-trip h2 {
   font-size: 16px;
   font-weight: bold;
@@ -105,6 +111,7 @@
 
 .indicator {
   background-color: black !important;
+  padding: 2px;
 }
 
 .carousel-control-next-icon {
