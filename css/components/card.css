@@ -99,6 +99,18 @@
   margin-top: 25px;
 }
 
+.carousel-control-prev-icon {
+  margin-bottom: 200px;
+}
+
+.indicator {
+  background-color: black !important;
+}
+
+.carousel-control-next-icon {
+  margin-bottom: 200px;
+}
+
 @media(max-width: 992px) {
   .wrapper {
     grid-template-columns: 1fr 1fr;
