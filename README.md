@@ -1,3 +1,3 @@
-This is a simple version of my personal landing page. 
+Hi there, I am Lorenz - a creative full-stack-developer based in Berlin! 
 
-The page has a very simple structure. Each part of the page is one card, a top card consisting of the name, an avatar and a short bio. In the main section are my three passions. At the bottom is footer linking to my Social Media. 
+This is my personal landing page. My portfolio skills are Ruby, Rails, JavaScript (in progress), HTML, CSS and many more. Further, my landing page shows the projects I have been working on in the past with links to the respective web page and Github repo. This page gives you the opportunity to convince yourself of my coding skills and contact me if you are interested in working together. I am looking forward to hearing from you!  
