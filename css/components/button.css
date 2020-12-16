@@ -44,18 +44,44 @@
   opacity: 0.8;
 }
 
-/*.btn-project {
-  width: 12rem;
-  background-color: black;
-  color: white;
-  border-radius: 20px;
-  margin-right: 88px;
+.contact-button-project {
+  display: flex;
+  justify-content: center;
 }
 
-.btn-github {
-  background-color: black;
-  color: white;
-  border-radius: 20px;
-  width: 8rem;
+
+.contact-button {
+  display: flex;
+  justify-content: center;
 }
-*/
+
+
+#github-icon {
+  font-size: 30px;
+  color: #ffac31;
+}
+
+#github-icon:hover {
+  opacity: 0.8;
+  color: black;
+}
+
+.btn-work-contact {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+
+.btn-work-contact:hover {
+  background-color: #ffac31;
+  color: white;
+  opacity: 0.8;
+}
+
+
+
+
+
+

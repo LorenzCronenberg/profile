@@ -2,7 +2,6 @@
   font-family: 'Roboto';
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-left: 20px;
 }
 
 .wrapper {
@@ -117,6 +116,18 @@
 .carousel-control-next-icon {
   margin-bottom: 200px;
 }
+
+.contact-card {
+  padding: 60px;
+  background: #ffac31;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(20,20,20,0.2);
+  margin-bottom: 100px;
+}
+
 
 @media(max-width: 992px) {
   .wrapper {

@@ -40,10 +40,10 @@
 .nav-header {
   font-family: 'Roboto' sans-serif;
   font-weight: 300;
-  color: white;
 }
 
 .nav-header h3 {
+  color: #ffac31;
   margin-bottom: 0px;
 }
 
@@ -56,7 +56,7 @@
 #item {
   font-family: 'Roboto' sans-serif;
   font-weight: 100;
-  color: white;
+  color: #ffac31;
   margin-left: 20px;
 }
 
