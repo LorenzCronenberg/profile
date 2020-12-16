@@ -10,8 +10,9 @@
   </head>
 
   <body>
+    <a name="top"></a>
     <div class="navbar navbar-expand-sm navbar-dark navbar-lewagon fixed-top" id="nav-top">
-      <div class="nav-header">
+      <div class="nav-header" id="home">
         <h3>HI THERE, I AM LORENZ!</h3>
       </div>
       <button class="navbar-toggler" id="item" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white">
@@ -23,15 +24,15 @@
             <a class="nav-link" style="color: #ffac31" href="#">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="item" href="#">PORTFOLIO</a>
+            <a class="nav-link" id="item" href="#portfolio">PORTFOLIO</a>
           </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="item" href="#">PROJECTS</a>
+            <a class="nav-link" id="item" href="#references">PROJECTS</a>
           </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="item" href="#">CONTACT</a>
+            <a class="nav-link" id="item" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -45,7 +46,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="portfolio">
       <h2 id="title">MY PORTFOLIO</h2>
     </div>
     <div class="container portfolio">
@@ -94,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="references">
       <h2 id="title">MY REFERENCES</h2>
     </div>
     <div class="container project mb-3">
@@ -107,16 +108,16 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="card-trip">
-              <a href="https://github.com/LorenzCronenberg" target="_blank">
-                <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" id="project-picture"/>
+              <a href="https://www.socialbookclub.online/" target="_blank">
+                <img src="images/socialbookclub.png" id="project-picture"/>
               </a>
               <div class="card-trip-infos">
                 <div>
-                  <h2>Project 1</h2>
-                  <p>Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here!</p>
+                  <h2>The Social Bookclub</h2>
+                  <p>You love to read but even more so for free? Your next book is probably sitting on somebody's shelf already. Check out books around you. Further, find a company to talk about your favorite topics in our forums! Harry Potter? True crime? Origami? Programming? We got you covered!</p>
                   <div class="action-button">
                     <div>
-                      <a href="https://github.com/LorenzCronenberg"><i class="fab fa-github-square" id="github-icon"></i></a>
+                      <a href="https://github.com/LorenzCronenberg/social_book_club"><i class="fab fa-github-square" id="github-icon"></i></a>
                     </div>
                   </div>
                 </div>
@@ -125,16 +126,16 @@
           </div>
           <div class="carousel-item">
             <div class="card-trip">
-              <a href="https://github.com/LorenzCronenberg" target="_blank">
-                <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" id="project-picture" />
+              <a href="https://artspace490.herokuapp.com/" target="_blank">
+                <img src="images/artspace2.png" id="project-picture" />
               </a>
               <div class="card-trip-infos">
                 <div>
-                  <h2>Project 2</h2>
-                  <p>Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here!</p>
+                  <h2>ARTSPACE</h2>
+                  <p>You want to impress your friends, but not spend two months' salary? You're a young artist, looking for places to show your talents? Fear not, Art space is a platform to change your living space, even for a few days.</p>
                   <div class="action-button">
                     <div>
-                      <a href="https://github.com/LorenzCronenberg"><i class="fab fa-github-square" id="github-icon"></i></a>
+                      <a href="https://github.com/LorenzCronenberg/artspace"><i class="fab fa-github-square" id="github-icon"></i></a>
                     </div>
                   </div>
                 </div>
@@ -143,13 +144,13 @@
           </div>
           <div class="carousel-item">
             <div class="card-trip">
-              <a href="https://github.com/LorenzCronenberg" target="_blank">
-                <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" id="project-picture"/>
+              <a href="mailto:lorenz.cronenberg@gmx.de?subject=Let's start a project!" target="_blank">
+                <img src="images/project.jpg" id="project-picture"/>
               </a>
               <div class="card-trip-infos">
                 <div>
-                  <h2>Project 3</h2>
-                  <p>Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here! Short description here!</p>
+                  <h2>YOUR PROJECT</h2>
+                  <p>Here could be the description of your project!</p>
                   <div class="action-button">
                     <div>
                       <a href="https://github.com/LorenzCronenberg"><i class="fab fa-github-square" id="github-icon"></i></a>
@@ -173,7 +174,7 @@
         <a class="btn btn-work-project" href="mailto:lorenz.cronenberg@gmx.de?subject=Let's start a project!">LET'S START A PROJECT!</a>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="contact">
       <h2 id="title">LET'S WORK TOGETHER!</h2>
       <div class="contact-card mb-6">
         <div class="contact-section">
@@ -183,14 +184,17 @@
           <a class="btn btn-work-contact" href="mailto:lorenz.cronenberg@gmx.de?subject=Let's start a project!">LET'S START A PROJECT!</a>
         </div>
       </div>
+      <div class="back-button mb-3">
+        <a class="btn btn-back-up" href="#top">Back up</a>
+      </div>
     </div>
     <div class="footer">
       <div class="footer-copyright">
         LORENZ CRONENBERG
       </div>
       <div class="footer-links">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/LorenzCronenberg"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/lorenzcronenberg/"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
 
