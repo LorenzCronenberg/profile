@@ -44,6 +44,12 @@
   opacity: 0.8;
 }
 
+.contact-button-project {
+  display: flex;
+  justify-content: center;
+}
+
+
 .contact-button {
   display: flex;
   justify-content: center;
@@ -59,4 +65,23 @@
   opacity: 0.8;
   color: black;
 }
+
+.btn-work-contact {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+
+.btn-work-contact:hover {
+  background-color: #ffac31;
+  color: white;
+  opacity: 0.8;
+}
+
+
+
+
+
 
