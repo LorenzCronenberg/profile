@@ -44,18 +44,19 @@
   opacity: 0.8;
 }
 
-/*.btn-project {
-  width: 12rem;
-  background-color: black;
-  color: white;
-  border-radius: 20px;
-  margin-right: 88px;
+.contact-button {
+  display: flex;
+  justify-content: center;
 }
 
-.btn-github {
-  background-color: black;
-  color: white;
-  border-radius: 20px;
-  width: 8rem;
+
+#github-icon {
+  font-size: 30px;
+  color: #ffac31;
 }
-*/
+
+#github-icon:hover {
+  opacity: 0.8;
+  color: black;
+}
+
