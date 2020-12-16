@@ -80,8 +80,17 @@
   opacity: 0.8;
 }
 
+.btn-back-up {
+  display: flex;
+  justify-content: center;
+  color: #ffac31;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 
-
+.btn-back-up:hover {
+  color: #ffac31;
+}
 
 
 
